@@ -45,8 +45,44 @@ For example for img1.jpg you will be created img1.txt containing:
 </annotation>
 ```
 
+### File Arrangement
+
+*Initial*
+
+    .
+    ├── ...
+    ├── dataset             
+    │   ├── Annotations 
+    |   |   ├── Folder 1
+    |   |   |   ├── Sub-Folder 1
+    |       |   |   ├── 000xxx.xml
+    |   |   |   |   ├── 000xxx.xml
+    |   |   |   |   └── ...
+    |   |   |   ├── Sub-Folder 2
+    |   |   |   └── ...
+    |   |   ├── Folder 2
+    │   |   └── ...
+    │   ├── Images  
+    │   └── ...
+    └── ...
+
+*Output*
+
+    .           
+    ├── New-Annotations 
+    |   ├── Folder 1
+    |   |   ├── Sub-Folder 1
+    |   |   |   ├── 000xxx.txt
+    |   |   |   ├── 000xxx.txt
+    |   |   |   └── ...
+    |   |   ├── Sub-Folder 2
+    |   |   └── ...
+    |   ├── Folder 2
+    |   └── ...
+    └── ...
+
 ### Requirements
 * Python 3.xx
 
 ### How to Use?
-* python3 app.py
+* `python3 app.py`
