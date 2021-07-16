@@ -49,3 +49,4 @@ For example for img1.jpg you will be created img1.txt containing:
 * Python 3.xx
 
 ### How to Use?
+* python3 app.py
