@@ -55,7 +55,7 @@ For example for img1.jpg you will be created img1.txt containing:
     │   ├── Annotations 
     |   |   ├── Folder 1
     |   |   |   ├── Sub-Folder 1
-    |       |   |   ├── 000xxx.xml
+    |   |   |   |   ├── 000xxx.xml
     |   |   |   |   ├── 000xxx.xml
     |   |   |   |   └── ...
     |   |   |   ├── Sub-Folder 2
